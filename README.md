@@ -22,15 +22,15 @@
 # 実行手順
 以下の手順で実行してください。 
 
- リポジトリをクローンする  
+- リポジトリをクローンする  
  
 `$git clone https://github.com/ShioriSugiyama/robosys2020_kadai1.git`  
  
- リポジトリのディレクトリに移動する 
+- リポジトリのディレクトリに移動する 
  
 `$cd robosys2020_kadai1` 
  
- 数字の入力ができる状態にする 
+- 数字の入力ができる状態にする 
 
 `$make` 
 
