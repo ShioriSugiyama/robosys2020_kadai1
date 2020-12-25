@@ -24,26 +24,26 @@
 
 - リポジトリをクローンする  
  
-`$git clone https://github.com/ShioriSugiyama/robosys2020_kadai1.git`  
+`$ git clone https://github.com/ShioriSugiyama/robosys2020_kadai1.git`  
  
 - リポジトリのディレクトリに移動する 
  
-`$cd robosys2020_kadai1` 
+`$ cd robosys2020_kadai1` 
  
 - 数字の入力ができる状態にする 
 
-`$make` 
+`$ make` 
 
-`$sudo insmod myled.ko` 
+`$ sudo insmod myled.ko` 
 
-`$sudo chmod 666 /dev/myled0` 
+`$ sudo chmod 666 /dev/myled0` 
 
-## LEDを点灯させる
-`$echo 0 > /dev/myled0` 
+### LEDを点灯させる
+`$ echo 0 > /dev/myled0` 
 
-## LEDを消灯させる
-`$echo 1 > /dev/myled0` 
+### LEDを消灯させる
+`$ echo 1 > /dev/myled0` 
 
-## LEDを10回点滅させる
-`$echo 2 > /dev/myled0` 
+### LEDを10回点滅させる
+`$ echo 2 > /dev/myled0` 
 
