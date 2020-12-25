@@ -22,13 +22,20 @@
 # 実行手順
 以下の手順で実行してください。 
 
- リポジトリをクローンする 
-`$git clone https://github.com/ShioriSugiyama/robosys2020_kadai1.git` 
+ リポジトリをクローンする  
+ 
+`$git clone https://github.com/ShioriSugiyama/robosys2020_kadai1.git`  
+ 
  リポジトリのディレクトリに移動する 
+ 
 `$cd robosys2020_kadai1` 
+ 
  数字の入力ができる状態にする 
+
 `$make` 
+
 `$sudo insmod myled.ko` 
+
 `$sudo chmod 666 /dev/myled0` 
 
 ## LEDを点灯させる
