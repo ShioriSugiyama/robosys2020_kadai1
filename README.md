@@ -1,5 +1,5 @@
 # robosys2020_kadai1
-ロボットシステム学の課題１で作成したプログラム
+ロボットシステム学の課題１で作成したプログラムです。
 
 ## 概要
 講義内で作成したデバイスドライバを一部改造して作成しました。 
@@ -20,7 +20,7 @@
 ## 回路
 下図のように回路を作成しました。　
 
-![kairo](https://user-images.githubusercontent.com/56065468/103296223-fee55b00-4a38-11eb-8988-3468fb1c2d0b.PNG)
+![kairo](https://user-images.githubusercontent.com/56065468/103296711-fe998f80-4a39-11eb-98c2-017d337bb03d.PNG) 
 
 ## 実行手順
 以下の手順で実行してください。 
