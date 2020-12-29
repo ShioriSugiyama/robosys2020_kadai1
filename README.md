@@ -54,6 +54,9 @@
 ### LEDを10回点滅させる
 `$ echo 2 > /dev/myled0` 
 
+## デモ動画
+
+https://youtu.be/RJDrkZwVTqs
 
 ## ライセンス
 GNU General Public License v3.0
