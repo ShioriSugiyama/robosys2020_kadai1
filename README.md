@@ -18,6 +18,9 @@
 - ジャンパーコード（オス-オス）×2 
 
 ## 回路
+下図のように回路を作成しました。　
+
+![kairo](https://user-images.githubusercontent.com/56065468/103296223-fee55b00-4a38-11eb-8988-3468fb1c2d0b.PNG)
 
 ## 実行手順
 以下の手順で実行してください。 
@@ -38,6 +41,10 @@
 
 `$ sudo chmod 666 /dev/myled0` 
 
+- 終了した際に入力するコマンド 
+
+`$ sudo rmmod myled`
+
 ### LEDを点灯させる
 `$ echo 0 > /dev/myled0` 
 
@@ -46,6 +53,7 @@
 
 ### LEDを10回点滅させる
 `$ echo 2 > /dev/myled0` 
+
 
 ## ライセンス
 GNU General Public License v3.0
